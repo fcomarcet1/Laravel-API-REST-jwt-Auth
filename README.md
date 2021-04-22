@@ -1,63 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><img src="https://banners.beyondco.de/Json%20Api%20Auth.png?theme=light&packageManager=composer+require&packageName=arielmejiadev%2Fjson-api-auth&pattern=bubbles&style=style_1&description=Authentication+scaffold+for+Json+Apis&md=1&showWatermark=0&fontSize=125px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🔐 Authentication scaffold for Json Apis.
 
-## About Laravel
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/arielmejiadev/json-api-auth.svg?style=flat-square)](https://packagist.org/packages/arielmejiadev/json-api-auth)
+[![Build Status](https://img.shields.io/travis/arielmejiadev/json-api-auth/master.svg?style=flat-square)](https://travis-ci.org/arielmejiadev/json-api-auth)
+[![Quality Score](https://img.shields.io/scrutinizer/g/arielmejiadev/json-api-auth.svg?style=flat-square)](https://scrutinizer-ci.com/g/arielmejiadev/json-api-auth)
+[![Total Downloads](https://img.shields.io/packagist/dt/arielmejiadev/json-api-auth.svg?style=flat-square)](https://packagist.org/packages/arielmejiadev/json-api-auth)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+It adds all the scaffold to get register, login, logout, forgot password, password verify and verify email account features for Apis.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+It plays well with both authentication official packages Laravel Passport or Sanctum.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+To learn all about it, head over to <a href="https://arielmejiadev.github.io/json-api-auth-docs/" target="_blank"> the extensive documentation.</a>
 
-## Learning Laravel
+## 👨‍💻 Installation
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+You can install the package via composer:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```bash
+composer require arielmejiadev/json-api-auth --dev
+```
 
-## Laravel Sponsors
+## 📦 Usage
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+``` php
+php artisan json-api-auth:install
+```
 
-### Premium Partners
+### 🔬 Testing
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+``` bash
+php artisan test
+```
 
-## Contributing
+### 📚 Changelog
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-## Code of Conduct
+## 👍 Contributing
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
+### 🔒 Security
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover any security related issues, please email arielmejiadev@gmail.com instead of using the issue tracker.
 
-## License
+## 💎 Credits
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Laravel-API-REST-jwt-Auth
+- [Ariel Mejia Dev](https://github.com/arielmejiadev)
+- [All Contributors](../../contributors)
+
+## 📓 License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Support the project
+
+Hey 👋 thanks for considering making a donation, with these donations I can continue working to contribute to opensource projects.
+
+<a href="https://www.buymeacoffee.com/arielmejiadev">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=arielmejiadev&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00">
+</a>
